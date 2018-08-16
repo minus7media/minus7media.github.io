@@ -7,22 +7,31 @@
     <title>minus7media</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body style="background-color:rgb(12,12,12);">
-    <section id="hero">
-        <div class="d-flex flex-column justify-content-between" id="player">
-            <div class="container" data-aos="fade" data-aos-duration="600" data-aos-delay="400" data-aos-once="true" id="hero-top">
-                <div class="row" id="title">
-                    <div class="col">
-                        <h1>minus7media</h1>
-                    </div>
-                </div>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#">minus7media</a><button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <div class="container" data-aos="slide-up" data-aos-duration="600" data-aos-delay="400" data-aos-once="true" id="hero-bottom">
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="d-flex flex-column justify-content-end" id="player">
+            <div class="container" id="hero-bottom">
                 <div class="row">
                     <div class="col">
                         <p><i class="fa fa-chevron-down flash animated infinite"></i></p>
@@ -31,7 +40,48 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>There Is No Ceiling</h1>
+                    <p>Something about what I do</p>
+                    <p>Combining the industry's best hardware with the latest software, virtual becomes reality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="rounded-circle img-fluid" src="assets/img/MatSample.jpg"></div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Hyper-Realism</h2>
+                        <p>Stimulate your senses like never before. Leveraging physically-based rendering along with binaural audio, the interface of reality becomes a blur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5"><img class="rounded-circle img-fluid" src="assets/img/Controllers.jpg"></div>
+                </div>
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <h2 class="display-4">Immersive</h2>
+                        <p>Seeing is believing. Interaction is absolute. Manipulate reality in ways you never thought possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
@@ -39,15 +89,70 @@
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="p-5">
-                        <h2 class="display-4">For those about to rock...</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                        <h2 class="display-4">Limitless</h2>
+                        <p>Separate from reality. Escape physical boundaries and explore the infinite because there are no limits in virtual reality.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="services">
+        <div class="container">
+            <div class="row" id="services-tag">
+                <div class="col">
+                    <h1>What We Offer</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-6" id="vr">
+                    <div class="p-5">
+                        <h2 class="display-4">VR Development</h2><img class="img-fluid services-image" src="assets/img/services-vr.png">
+                        <p><br>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum.<br></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6" id="modeling">
+                    <div class="p-5">
+                        <h2 class="display-4">3D Modeling</h2><img class="img-fluid services-image" src="assets/img/services-modeling.png">
+                        <p><br>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer" class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2017</p>
+            </div>
+        </footer>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/Navbar-Peek.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
