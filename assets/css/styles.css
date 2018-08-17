@@ -241,3 +241,15 @@ p {
   color:inherit;
 }
 
+@media (min-width: 300px) {
+  #services p {
+    font-weight:400;
+  }
+}
+
+@media (min-width: 576px) {
+  #services p {
+    /*font-weight:300;*/
+  }
+}
+
